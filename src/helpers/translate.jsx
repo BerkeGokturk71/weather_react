@@ -9,6 +9,6 @@ export default function translate(translate_text){
         case "Patchy rain nearby":
             return "Yer yer yağmur olası";
         default:
-            return condition;
+            return translate_text;
     }
 }
